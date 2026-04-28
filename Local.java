@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Game here.
+ * Write a description of class Local here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Game
+public class Local extends Multiplayer
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Game
+     * Constructor for objects of class Local
      */
-    public Game()
+    public Local()
     {
         // initialise instance variables
         x = 0;

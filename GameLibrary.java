@@ -1,3 +1,4 @@
+import java.util.HashSet;
 
 /**
  * Write a description of class GameLibrary here.
@@ -8,7 +9,7 @@
 public class GameLibrary
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private HashSet<Game> games;
 
     /**
      * Constructor for objects of class GameLibrary
@@ -16,7 +17,7 @@ public class GameLibrary
     public GameLibrary()
     {
         // initialise instance variables
-        x = 0;
+       
     }
 
     /**
@@ -28,6 +29,6 @@ public class GameLibrary
     public int sampleMethod(int y)
     {
         // put your code here
-        return x + y;
+        return  y;
     }
 }
