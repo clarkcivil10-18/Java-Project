@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="PZAeExqx3UGYGSSmZ7qN">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-16" edge="1" parent="1" source="rFJMBvHIZjhPRJOyV_zm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rFJMBvHIZjhPRJOyV_zm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Game Library&lt;div&gt;string name&lt;/div&gt;&lt;div&gt;&lt;div&gt;HashSet&amp;lt;Game&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;addGame(game)&lt;/div&gt;&lt;div&gt;listAllGames()&lt;/div&gt;&lt;div&gt;listByGenre()&lt;/div&gt;&lt;div&gt;listByPlatform()&lt;/div&gt;&lt;div&gt;listByAgeRating()&lt;/div&gt;&lt;div&gt;listByRatings()&lt;/div&gt;&lt;div&gt;printDetails()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="180" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Game&lt;div&gt;String title:&lt;/div&gt;&lt;div&gt;genre:Genre&lt;/div&gt;&lt;div&gt;agerating: AgeRating&lt;/div&gt;&lt;div&gt;&amp;nbsp;platform: Platform&lt;/div&gt;&lt;div&gt;gamerating: float&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;printGameDetails()&lt;/div&gt;&lt;div&gt;addRating()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="180" x="351" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-9" edge="1" parent="1" source="rFJMBvHIZjhPRJOyV_zm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rFJMBvHIZjhPRJOyV_zm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Multiplayer&lt;div&gt;minplayer:int&lt;/div&gt;&lt;div&gt;maxplayer:int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="190" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-10" edge="1" parent="1" source="rFJMBvHIZjhPRJOyV_zm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="SinglePlayer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="590" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-13" edge="1" parent="1" source="rFJMBvHIZjhPRJOyV_zm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rFJMBvHIZjhPRJOyV_zm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Online&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-14" edge="1" parent="1" source="rFJMBvHIZjhPRJOyV_zm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rFJMBvHIZjhPRJOyV_zm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFJMBvHIZjhPRJOyV_zm-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Local" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
