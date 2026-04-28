@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Game here.
+ * Write a description of class Online here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Game extends GameLibrary
+public class Online extends Multiplayer
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Game
+     * Constructor for objects of class Online
      */
-    public Game()
+    public Online()
     {
         // initialise instance variables
         x = 0;
