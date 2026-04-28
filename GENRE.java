@@ -7,5 +7,5 @@
  */
 public enum GENRE
 {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    Action,Strategy, RPG, Shooter, Puzzle,
 }
