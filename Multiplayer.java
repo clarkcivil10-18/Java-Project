@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Multiplayer here.
  *
@@ -13,10 +12,12 @@ public class Multiplayer extends Game
     /**
      * Constructor for objects of class Multiplayer
      */
-    public Multiplayer()
+    public Multiplayer(String title, GENRE genre, AgeRating ageRating,
+                       Platform platform, int minPlayers, int maxPlayers)
     {
         // initialise instance variables
-        x = 0;
+        super(title, genre, ageRating, platform);
+    
     }
 
     /**

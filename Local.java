@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Local here.
  *
@@ -13,10 +12,9 @@ public class Local extends Multiplayer
     /**
      * Constructor for objects of class Local
      */
-    public Local()
-    {
-        // initialise instance variables
-        x = 0;
+    public Local(String title, GENRE genre, AgeRating ageRating,
+                 Platform platform, int minPlayers, int maxPlayers) {
+        super(title, genre, ageRating, platform, minPlayers, maxPlayers);
     }
 
     /**
