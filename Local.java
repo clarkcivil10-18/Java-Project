@@ -12,7 +12,7 @@ public class Local extends Multiplayer
     /**
      * Constructor for objects of class Local
      */
-    public Local(String title, GENRE genre, AgeRating ageRating,
+    public Local(String title, Genre genre, AgeRating ageRating,
                  Platform platform, int minPlayers, int maxPlayers) {
         super(title, genre, ageRating, platform, minPlayers, maxPlayers);
     }

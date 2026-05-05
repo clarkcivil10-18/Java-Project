@@ -5,7 +5,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public enum GENRE
+public enum Genre
 {
-    Action,Strategy, RPG, Shooter, Puzzle,
+    ACTION,Strategy, RPG, Shooter, Puzzle,
 }

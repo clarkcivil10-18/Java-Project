@@ -14,7 +14,7 @@ public class Game
     // Coded by Nathan 
     private HashSet<Game> games;
     private String title;
-    private GENRE genre;
+    private Genre genre;
     private AgeRating ageRating;
     private Platform platform;
     private float gameRating;
@@ -22,7 +22,7 @@ public class Game
     /**
      * Constructor for objects of class Game
      */
-    public Game(String title, GENRE genre, AgeRating ageRating, Platform platform)
+    public Game(String title, Genre genre, AgeRating ageRating, Platform platform)
     {
         // initialise instance variables
       this.title = title;
@@ -57,13 +57,13 @@ public class Game
     }
     
     public String getTitle()            {return title;}
-    public GENRE getGenre()             {return genre;}
+    public Genre getGenre()             {return genre;}
     public AgeRating getAgeRating()     {return ageRating;}
     public Platform getPlatform()       {return platform;}
     public float getGameRating()        {return gameRating;}
     
     public void setTitle(String title)          { this.title = title; }
-    public void setGenre(GENRE genre)           { this.genre = genre; }
+    public void setGenre(Genre genre)           { this.genre = genre; }
     public void setAgeRating(AgeRating ar)      { this.ageRating = ar; }
     public void setPlatform(Platform platform)  { this.platform = platform; }
 }

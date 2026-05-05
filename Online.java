@@ -13,7 +13,7 @@ public class Online extends Multiplayer
     /**
      * Constructor for objects of class Online
      */
-    public Online(String title, GENRE genre, AgeRating ageRating,
+    public Online(String title, Genre genre, AgeRating ageRating,
                   Platform platform, int minPlayers, int maxPlayers) {
         super(title, genre, ageRating, platform, minPlayers, maxPlayers);
     }

@@ -13,7 +13,7 @@ public class Singleplayer extends Game
     /**
      * Constructor for objects of class Singleplayer
      */
-    public Singleplayer(String title, GENRE genre, AgeRating ageRating,
+    public Singleplayer(String title, Genre genre, AgeRating ageRating,
                        Platform platform, int minPlayers, int maxPlayers)
     {
         // initialise instance variables

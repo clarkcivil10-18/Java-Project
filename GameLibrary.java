@@ -10,14 +10,15 @@ public class GameLibrary
 {
     // instance variables - replace the example below with your own
     private HashSet<Game> games;
+    private String name;
 
     /**
      * Constructor for objects of class GameLibrary
      */
-    public GameLibrary()
+    public GameLibrary(String name)
     {
-        // initialise instance variables
-       
+        this.name = name;
+        this.games = new HashSet<>();
     }
 
     /**
@@ -26,9 +27,8 @@ public class GameLibrary
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void PrintDetails()
     {
-        // put your code here
-        return  y;
+        System.out.println(games);
     }
 }
