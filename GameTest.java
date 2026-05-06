@@ -39,4 +39,13 @@ public class GameTest
     public void tearDown()
     {
     }
+
+    @Test
+    public void sample()
+    {
+        GameLibrary gameLibr1 = new GameLibrary();
+        Game game1 = new Game("erger", Genre.ACTION, AgeRating.E, Platform.PC);
+        assertEquals(Genre.ACTION, game1.getGenre());
+    }
 }
+
