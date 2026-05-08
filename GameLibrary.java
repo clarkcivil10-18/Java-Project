@@ -29,6 +29,56 @@ public class GameLibrary
      */
     public void PrintDetails()
     {
-        System.out.println(games);
+        for (Game game : games) {
+        System.out.println("Title: " + game.getTitle() +
+            ", Genre: " + game.getGenre() +
+            ", Platform: " + game.getPlatform() +
+            ", Age Rating: " + game.getAgeRating() +
+            ", Rating: " + game.getGameRating()
+        );
+    }
+    }
+    public void addGame(Game game)
+    {
+        games.add(game);
+    }
+    public void listAllGames()
+    {
+        for(Game game: games){
+            System.out.println(game.getTitle());
+        } 
+    }
+    public void listByGenre(Genre genre)
+    {
+        for(Game game: games){
+            if(game.getGenre() == genre) {
+            System.out.println(game.getTitle());
+        } 
+    }
+    }
+    public void listByPlatform(Platform platform)
+    {
+        for(Game game: games){
+            if(game.getPlatform() == platform) {
+            System.out.println(game.getTitle());
+        } 
+    }
+    }
+    public void listByAgeRating(AgeRating ageRating)
+    {
+        for(Game game: games){
+            if(game.getAgeRating() == ageRating) {
+            System.out.println(game.getTitle());
+        } 
+    }
+    }
+    public void listByRating(float rating)
+    {
+        for(Game game: games){
+            if(game.getGameRating() == rating) {
+            System.out.println(game.getTitle() + " " + 
+            game.getGameRating());
+        } 
+    }
     }
 }
