@@ -16,6 +16,8 @@ public class Main
         Game game3 = new Game("God Of War", Genre.ACTION,AgeRating.M,Platform.CONSOLE);
         Game game4 = new Game("Mario Kart", Genre.RACING,AgeRating.E,Platform.CONSOLE);
         Game game5 = new Game("Valorant", Genre.SHOOTER,AgeRating.T,Platform.PC);
+        Multiplayer mp = new Multiplayer("COD", Genre.SHOOTER,AgeRating.T,Platform.PC,0, 10);
+        Singleplayer sp = new Singleplayer("Space Marines", Genre.SHOOTER,AgeRating.M,Platform.PC,0, 3,true,"Hard"); 
         game1.addRating(9.5f);
         game2.addRating(10);
         game3.addRating(8);

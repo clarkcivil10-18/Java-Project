@@ -8,7 +8,6 @@
 public class Online extends Multiplayer
 {
     // instance variables - replace the example below with your own
-    private int x;
 
     /**
      * Constructor for objects of class Online
@@ -24,9 +23,8 @@ public class Online extends Multiplayer
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void connectToServer()
     {
-        // put your code here
-        return x + y;
+        System.out.println(getTitle() + " connecting to online server...");
     }
 }

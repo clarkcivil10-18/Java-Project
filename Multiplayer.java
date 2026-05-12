@@ -7,7 +7,7 @@
 public class Multiplayer extends Game
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int maxPlayers;
 
     /**
      * Constructor for objects of class Multiplayer
@@ -17,18 +17,11 @@ public class Multiplayer extends Game
     {
         // initialise instance variables
         super(title, genre, ageRating, platform);
-    
+        this.maxPlayers = maxPlayers;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public void MultiplayerInfo()
     {
-        // put your code here
-        return x + y;
+        System.out.println("Max Players: " + maxPlayers);
     }
+    
 }

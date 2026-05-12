@@ -1,4 +1,4 @@
-
+ 
 /**
  * Write a description of class Singleplayer here.
  *
@@ -8,27 +8,39 @@
 public class Singleplayer extends Game
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private boolean storymode;
+    private String difficulty;    
 
     /**
      * Constructor for objects of class Singleplayer
      */
     public Singleplayer(String title, Genre genre, AgeRating ageRating,
-                       Platform platform, int minPlayers, int maxPlayers)
+                       Platform platform, int minPlayers, int maxPlayers, 
+                       boolean storymode, String difficulty)
     {
         // initialise instance variables
         super(title, genre, ageRating, platform);
+        this.storymode = storymode;
+        this.difficulty = difficulty;
+    }
+     public void checkStoryMode()
+    {
+        if (storymode)
+        {
+            System.out.println(getTitle() + " has a story mode.");
+        }
+        else
+        {
+            System.out.println(getTitle() + " does NOT have a story mode.");
+        }
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    // Method to show difficulty
+    public void showDifficulty()
     {
-        // put your code here
-        return x + y;
+        System.out.println("Difficulty Level: " + difficulty);
     }
+    
+    
+    
 }
