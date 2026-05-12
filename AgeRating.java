@@ -7,5 +7,5 @@
  */
 public enum AgeRating
 {
-    C,M,E,T,A
+    C,M,E,E10,T,A
 }
