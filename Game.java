@@ -30,7 +30,7 @@ public class Game
       this.ageRating = ageRating;
       this.platform = platform;
       this.ratings = new ArrayList<>();
-      this.gameRating = 0;
+      this.gameRating = gameRating;
     }
 
     /**
